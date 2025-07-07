@@ -57,3 +57,7 @@ For inquiries or collaboration:
 
 ## Developed by 
 Eyad Qasim Raheem
+
+[LinkedIn Profile](https://www.linkedin.com/in/eyad-qasim-2a96b624b/)
+
+[GitHub Profile](https://github.com/eyad6789)
