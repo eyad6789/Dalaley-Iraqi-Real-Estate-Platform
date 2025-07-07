@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Abel:wght@400&display=swap"
+    />
+    <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Actor:wght@400&display=swap"
+    />
+    <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap"
+    />
+    <link rel="stylesheet" href="emailCodeStyle.css">
+    <link rel="stylesheet" href="../globaLogInStyle.css">
+</head>
+<body>
+    <div class="login-form">
+        <div class="intro">
+            <h1 class="welcome-back">Welcome Back 👋</h1>
+            <div class="today-is-a-container">
+                <p class="today-is-a">
+                Check your email please we send the code to you 
+                </p>
+            </div>
+            <form class="form" action="" id="formContainer">
+                <h3 class="label">Enter your code</h3>
+                <input class="input1 input2" type="number" placeholder="Enter the code">
+                <button class="main-button label">cofirm</button>
+                <a class="send_agian">send it again</a>
+            </form>
+                <div class="dont-you-have-container" id="dontYouHave">
+                    <span class="dont-you-have-container1">
+                        <span>Don't you have an account? </span>
+                        <a class="sign-up">Sign up</a>
+                    </span>
+                </div>
+        </div>
+    </div>
+    <script>
+    var mainButtonContainer = document.getElementById("mainButtonContainer");
+    if (mainButtonContainer) {
+        mainButtonContainer.addEventListener("click", function (e) {
+        // Please sync "reset password" to the project
+        });
+    }
+    
+    var dontYouHave = document.getElementById("dontYouHave");
+    if (dontYouHave) {
+        dontYouHave.addEventListener("click", function (e) {
+        // Please sync "sign up" to the project
+        });
+    }
+    </script>
+    <script src="emailCode.js"></script>
+</body>
+</html>

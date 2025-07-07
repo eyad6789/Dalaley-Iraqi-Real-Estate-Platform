@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Abel:wght@400&display=swap"
+    />
+    <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Actor:wght@400&display=swap"
+    />
+    <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap"
+    />
+    <link rel="stylesheet" href="resetPWstyke.css">
+    <link rel="stylesheet" href="globalresetPW.css">
+</head>
+<body>
+    <div class="reset-password">
+    <div class="login-form">
+        <div class="intro">
+        <div class="welcome-back">Welcome Back 👋</div>
+        <div class="today-is-a-container">
+            <p class="today-is-a">
+            Today is a new day. It's your day. You shape it.
+            </p>
+            <p class="today-is-a">Sign in to start managing your projects.</p>
+        </div>
+        </div>
+        <div class="form">
+        <div class="input">
+            <div class="label">new password</div>
+            <div class="input1">
+            <div class="input2"></div>
+            <div class="placeholder">Example@email.com</div>
+            </div>
+        </div>
+        <div class="input">
+            <div class="label">comfirm password</div>
+            <div class="input1">
+            <div class="input2"></div>
+            <div class="placeholder1">At least 8 characters</div>
+            </div>
+        </div>
+        <div class="main-button" id="mainButtonContainer">
+            <div class="label">Sign in</div>
+        </div>
+        </div>
+        <div class="dont-you-have-container" id="dontYouHave">
+        <span class="dont-you-have-container1">
+            <span>Don't you have an account? </span>
+            <span class="sign-up">Sign up</span>
+        </span>
+        </div>
+    </div>
+    </div>
+
+    <script>
+    var mainButtonContainer = document.getElementById("mainButtonContainer");
+    if (mainButtonContainer) {
+        mainButtonContainer.addEventListener("click", function (e) {
+        // Please sync "logIn" to the project
+        });
+    }
+    
+    var dontYouHave = document.getElementById("dontYouHave");
+    if (dontYouHave) {
+        dontYouHave.addEventListener("click", function (e) {
+        // Please sync "sign up" to the project
+        });
+    }
+    </script>
+</body>
+</html>

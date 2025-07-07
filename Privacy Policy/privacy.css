@@ -1,0 +1,102 @@
+main {
+    padding: 100px 0;
+}
+/*320px — 480px: Mobile devices*/
+@media screen and (max-width: 480px) {
+    .text {
+    font-size: 20px;
+    color: var(--th-10);
+    padding: 3.5%;
+    }
+    .title {
+    font-size: 22px;
+    color: var(--primary-100);
+    padding: 2%;
+    }
+    .list {
+    font-size: 20px;
+    color:var(--th-10);
+    padding: 2.5%;
+    }
+    a {
+    color: var(--primary-100);
+    }
+    a:hover {
+        color: var(--secondary-100);
+    }
+}
+
+/*481px — 768px: iPads, Tablets*/
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .text {
+    font-size: 18px;
+    color: var(--th-10);
+    padding: 1.5%;
+    }
+    .title {
+    font-size: 20px;
+    color: var(--primary-100);
+    padding: 1%;
+    }
+    .list {
+    font-size: 18px;
+    color:var(--th-10);
+    padding: 2.5%;
+    }
+    a {
+        color: var(--primary-100);
+    }
+    a:hover {
+        color: var(--secondary-100);
+    }
+}
+
+/*769px — 1024px: Small screens, laptops*/
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .text {
+    font-size: 16px;
+    color: var(--th-10);
+    padding: 1.5%;
+    }
+    .title {
+    font-size: 18px;
+    color: var(--primary-100);
+    padding: 1%;
+    }
+    .list {
+    font-size: 16px;
+    color: var(--th-10);
+    padding: 2.5%;
+    }
+    a {
+        color: var(--primary-100);
+    }
+    a:hover {
+        color: var(--secondary-100);
+    }
+}
+
+/*1025px — 1200px: Desktops, large screens*/
+@media screen and (min-width: 1025px) {
+    .text {
+    font-size: 16px;
+    color: var(--th-10);
+    padding: 1.5%;
+    }
+    .title {
+    font-size: 18px;
+    color: var(--primary-100);
+    padding: 1%;
+    }
+    .list {
+    font-size: 16px;
+    color: var(--th-10);
+    padding: 2.5%;
+    }
+    a {
+        color: var(--primary-100);
+    }
+    a:hover {
+        color: var(--secondary-100);
+    }
+}

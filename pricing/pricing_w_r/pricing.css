@@ -1,0 +1,244 @@
+html, body {
+    margin: 0;
+    background-image: url("../images/bg-bottom.svg"), url("../images/bg-top.svg");
+    background-size: 280px 300px, 380px 530px;
+    background-position: 0 110%, 100% 0%;
+    background-repeat: no-repeat;
+    background-color: hsl(240, 78%, 98%);
+    font-size: 1.3vw;
+    max-width: 100%;
+    overflow-x: hidden;
+    letter-spacing: 0.5px;
+}
+.section .container {
+    text-align: center;
+}
+.title-head {
+    margin-top: 100px;
+}
+hr {
+    height: 1px;
+    border: 0;
+    color: var(--th-80);
+    background-color: var(--th-70);
+}
+
+span {
+    vertical-align: middle;
+    padding-right: 0.2em;
+}
+
+h5 {
+    margin: 15px;
+}
+
+h4.card-title {
+    margin: 25px 0 15px 0;
+}
+
+.price {
+    font-size: 2rem;
+    padding: 10px;
+    color: hsl(234, 14%, 30%);
+    margin: 0 0 20px 0;
+}
+
+.master-price {
+    margin-bottom: 25px;
+}
+
+.professional-card>h4 {
+    margin-top: 40px;
+}
+
+.professional-card>.price {
+    color: var(--white);
+    margin-top: 20px;
+}
+
+.title {
+    padding: 2rem 0.2rem 0.2rem 0.2rem;
+    color: var(--primary-90);
+}
+
+.title>h1 {
+    margin-bottom: 10px;
+}
+
+.sub-title {
+    margin-bottom: 0;
+    margin-top: 0;
+    color: var(--secondary-100);
+}
+
+.text, .card-title {
+    color:var(--primary-40);
+}
+
+/* ------------ Grid ------------*/
+.grid-parent {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(3, 23%);
+    justify-content: center;
+}
+
+/* ------------ Cards ------------*/
+.card {
+    border-radius: 8px;
+    padding: 0 10%;
+    box-shadow: 0px 0px 25px -8px hsl(240, 9%, 76%);
+}
+
+.basic-card, .master-card {
+    background-color: var(--white);
+    color: var(--th-10);
+}
+
+.professional-card {
+    background-image: linear-gradient(to bottom right, var(--primary-90), var(--primary-80));
+    color: var(--white);
+    height: 108%;
+    place-self: center auto;
+}
+
+/* ------------ Buttons Style ------------*/
+.button {
+    background-image: linear-gradient(to bottom right, var(--primary-90), var(--primary-80));
+    width: 100%;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    color: var(--white);
+    padding: 5px 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 20px 0 25px 0;
+    font-weight: 700;
+    letter-spacing: 1.3px;
+}
+
+.professional-button {
+    background-color: var(--white);
+    width: 100%;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    color: var(--primary-90);
+    padding: 5px 30px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 15px;
+    font-weight: 700;
+    letter-spacing: 1.3px;
+}
+
+.pro-btn:hover {
+    border: 1px solid var(--white);
+    background-image: linear-gradient(to bottom right, var(--primary-90), var(--primary-80));
+    color: var(--white);
+    cursor: pointer;
+}
+
+.btn-learn:hover {
+    background-image: linear-gradient(to right, var(--white), var(--white));
+    color: var(--secondary-100);
+    border: 1px solid var(--secondary-100);
+    cursor: pointer;
+}
+
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 35px;
+    height: 20px;
+    bottom: 3px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* The slider */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: linear-gradient(to bottom right, var(--primary-90), var(--primary-80));
+    transition: .4s;
+}
+
+.slider:hover {
+    opacity: 0.5;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 3px;
+    bottom: 2px;
+    background-color: white;
+    transition: .4s;
+}
+
+input:checked+.slider {
+    background-image: linear-gradient(to right, var(--primary-90), var(--secondary-100));
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px hsl(237, 63%, 64%);
+}
+
+input:checked+.slider:before {
+    transform: translateX(13px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+/* ------------ Mobile View: When the screen size is 800px or lower do this: ------------*/
+@media screen and (max-width: 1000px) {
+    body {
+    background-image: url("../images/bg-top.svg");
+    background-size: 280px 310px;
+    background-position: 140% 0%;
+    }
+
+    span {
+    font-size: 5vw;
+    }
+
+    .title {
+    padding-top: 2rem;
+    }
+
+    .switch-section {
+    padding: 3rem;
+    }
+
+    .grid-parent {
+    margin-top: 20px;
+    grid-template-columns: repeat(1, 70%);
+    grid-row-gap: 6rem;
+    }
+
+    h4.card-title {
+    margin: 30px 0 15px 0;
+    }
+}

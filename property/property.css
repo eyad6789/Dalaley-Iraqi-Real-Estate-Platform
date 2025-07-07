@@ -1,0 +1,82 @@
+/* Property single section styles */
+
+.property-single {
+    padding: 80px 0;
+}
+
+.property-single .title-d {
+    font-size: 24px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.property-single .description {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #666;
+}
+
+.property-single .summary-list {
+    margin-top: 30px;
+}
+
+.property-single .summary-list li {
+    margin-bottom: 10px;
+}
+.carousel-item-b {
+    width: 100%;
+}
+.property-single .summary-list li strong {
+    color: #333;
+}
+
+.property-single .amenities-list {
+    margin-top: 30px;
+}
+
+.property-single .amenities-list li {
+    margin-bottom: 5px;
+}
+
+.property-single .amenities-list li::before {
+    content: "\2022";
+    color: #007bff;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+@media (max-width: 768px) {
+    .property-single .col-md-10.offset-md-1 {
+    margin-top: 30px;
+    }
+}
+
+
+
+.form-a .form-control {
+    border-radius: 25px;
+    padding: 1rem;
+}
+
+.form-a .btn-a {
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-a .btn-a:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+    .property-contact {
+    margin-top: 30px;
+    }
+}

@@ -1,0 +1,217 @@
+.login {
+    position: relative;
+    background-color: var(--color-white);
+    width: 100%;
+    height: 1059px;
+    overflow: hidden;
+    text-align: center;
+    font-size: var(--font-size-base);
+    color: var(--main-color);
+    font-family: var(--font-roboto);
+}
+.login-form {
+    position: absolute;
+    top: calc(40% - 396.5px);
+    left: calc(50% - 201px);
+    width: 402px;
+    height: 793px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 48px;
+}
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 28px;
+    font-size: 18px;
+    color: var(--primary-text);
+    font-family: var(--font-abel);
+}
+.welcome-back {
+    position: relative;
+    letter-spacing: 0.01em;
+    line-height: 100%;
+    white-space: pre-wrap;
+    margin: 25px 0 0;
+}
+.today-is-a-container {
+    position: relative;
+    font-size: var(--font-size-xl);
+    letter-spacing: 0.01em;
+    line-height: 160%;
+    font-family: var(--font-actor);
+    color: var(--secondary-text);
+    text-align: left;
+}
+.today-is-a {
+    margin: 0;
+}
+.form {
+    width: 400px;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    gap: var(--gap-5xl);
+    cursor: pointer;
+    text-align: left;
+}
+.label {
+    position: relative;
+    letter-spacing: 0.01em;
+    line-height: 100%;
+}
+.input2 {
+    position: absolute;
+    height: 104.17%;
+    width: 100%;
+    top: -2.08%;
+    right: -0.25%;
+    bottom: -2.08%;
+    left: -0.25%;
+    border-radius: var(--br-xs);
+    background-color: var(--color-ghostwhite);
+    border: 1px solid var(--color-lightgray);
+    box-sizing: border-box;
+}
+.input1 {
+    align-self: stretch;
+}
+.input1 {
+    position: relative;
+    height: 48px;
+    color: var(--color-lightslategray);
+    padding: 0 15px;
+}
+.input1::placeholder{
+    position: absolute;
+    top: 16px;
+    left: 16.58px;
+    letter-spacing: 0.01em;
+    line-height: 100%;
+}
+.input1:focus {
+    outline: none;
+    padding: 0 15px;
+}
+.forgot-password {
+    position: relative;
+    letter-spacing: 0.01em;
+    line-height: 100%;
+    color: var(--link);
+    text-align: right;
+    cursor: pointer;
+    text-decoration: none;
+}
+.input1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-5xs);
+}
+.main-button {
+    align-self: stretch;
+    display: flex;
+}
+.main-button {
+    border: none;
+    border-radius: var(--br-xs);
+    background-color: var(--main-color);
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--padding-base) 40%;
+    text-align: center;
+    font-size: var(--font-size-xl);
+    color: var(--color-white);
+    cursor: pointer;
+}
+.or,
+.or-child {
+    box-sizing: border-box;
+}
+.or-child {
+    flex: 1;
+    position: relative;
+    border-top: 1px solid var(--color-gainsboro);
+    height: 1px;
+}
+.or {
+    width: 388px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+    gap: var(--gap-base);
+}
+
+.facebook-icon,
+.google-icon {
+    position: relative;
+    width: 28px;
+    height: 28px;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+.sign-in-with,
+.social-button {
+    display: flex;
+    align-items: center;
+}
+.sign-in-with {
+    position: relative;
+    letter-spacing: 0.01em;
+    line-height: 100%;
+    width: 159px;
+    flex-shrink: 0;
+}
+.social-button {
+    align-self: stretch;
+    border-radius: var(--br-xs);
+    background-color: var(--color-whitesmoke);
+    flex-direction: row;
+    justify-content: center;
+    padding: var(--padding-xs) var(--padding-4xs);
+    gap: var(--gap-base);
+    border: 1px solid #dddddd;
+    cursor: pointer;
+}
+.social-buttons-columns,
+.social-sign-in {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.social-buttons-columns {
+    width: 388px;
+    gap: var(--gap-base);
+    text-align: left;
+    color: var(--main-color);
+}
+.social-sign-in {
+    gap: var(--gap-5xl);
+    color: #294957;
+}
+.sign-up {
+    color: var(--link);
+}
+.dont-you-have-container1 {
+    width: 100%;
+}
+.dont-you-have-container {
+    position: relative;
+    font-size: 18px;
+    letter-spacing: 0.01em;
+    line-height: 160%;
+    display: flex;
+    align-items: center;
+    width: 382px;
+    cursor: pointer;
+}
